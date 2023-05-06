@@ -6,12 +6,13 @@ body {
 }
 
 .areaprincipal {
-	margin-top: -10px;
-	margin-right: -10px; 
-    width: 70%;
-    padding: 20px;
+	margin-top: 10px;
+    margin-left: 25px;
+	margin-right: 25px;
 	font-size: 23px;
 	color: #eead2d;
+	font-family: arial;
+	text-align: center;
 }
 
 .cordotexto {
@@ -27,7 +28,7 @@ body {
 
 header{
 	width: 100%;
-	background-color: #413F42;
+	background-image: linear-gradient(#2D2727, #444444);
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -65,4 +66,58 @@ header{
 
 p{
     padding: 15px;
+}
+
+.logo-imagem{
+	width: 36px;
+	height: 50px;
+	background-image: url(mãozumbi.png);
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.logo-texto{
+	margin-left: 10px;
+}
+
+.pdf{
+	width: 70%;
+    padding: 20px;
+	text-align: left;
+}
+
+.footer{
+	height: 150px;
+	background-image: linear-gradient(#2D2727, #444444);
+}
+
+.footer h2{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+	text-align: left;
+	color: white;
+	display: inline-block;
+	margin: 0 10px;
+	
+}
+
+.footer p{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: left;
+	text-transform: unset;
+	color: white;
+	margin-top: 20px;
+	display: inline-block;
+	margin: 0 10px;
+
+
+}
+
+.logo-rede{
+	margin-top: 20px;
 }
